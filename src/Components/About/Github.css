@@ -1,0 +1,34 @@
+.gitstates {
+  display: flex;
+  margin: auto;
+  width: 100%;
+  /* border: 2px solid green; */
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+.gitstates > div {
+  /* border: 2px solid yellow; */
+  width: 30%;
+}
+.gitstates > div > img {
+  width: 95%;
+}
+@media screen and (min-width: 280px) and (max-width: 420px) {
+  .gitstates {
+    /* border: 2px solid red; */
+    padding: 5px;
+    display: block;
+    width: 100%;
+  }
+  .gitstates > div {
+    /* border: 2px solid yellow; */
+    width: 90%;
+    margin: 10px auto;
+  }
+  .gitstates > div > img {
+    width: 100%;
+    border: 1px solid whitesmoke;
+  }
+}
